@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.header .logo{
+    margin-left: 10px;
+    padding-bottom: 5px;
+    width: 100px;
+
+}
+
+.header .user-avatar{
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 32px;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+    padding: 10px
+}
+
+.post .avatar {
+    width: 32px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.post .name{
+    font-weight: bold;
+}
+.post .img {
+    width: 100%;
+}
+
+.footer{
+    display: flex ;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 0px; 
+    margin-top: 10px;;
+    margin-bottom: 20px;
+}
+.footer .buttons{
+    display: flex ;
+    gap: 10px; 
+}
+
+.footer .buttons .img{
+    width: 28px; 
+}
+
+.footer p{
+    margin: 10px 0px;
+}
+.footer .bold{
+    font-weight: bold;
+}
